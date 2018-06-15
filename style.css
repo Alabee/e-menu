@@ -46,6 +46,10 @@
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
+
+.navbar{
+  float: none;
+}
 /*--- Fixed Background Image --*/
 figure {
   position: relative;
