@@ -31,9 +31,29 @@
   backface-visibility: visible;
 }
 
-.navbar{
-  float: none;
+.title{
+  text-align: center;
+  padding: 30px 0px 10px 0px;
+  color: #fff;
 }
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: 1px;
+    border-color: #f1a339;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.menu-item{
+  width: 10px;
+}
+
+
 /*--- Fixed Background Image --*/
 figure {
   position: relative;
