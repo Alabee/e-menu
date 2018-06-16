@@ -20,41 +20,19 @@
 @media (max-width: 576px) {
   
 }
-
-.img-fluid { 
-  height: 400px;
-  width: 500px;
-  }
-.container-fluidpadding{
-  color: #ff00ff;
-  padding: 20px;
+body{
+  background-image: url("img/background.jpg");
+}
+.navbar{
+  background: #4CAF50;
 }
 
-.proceed{
-  margin-top: 10px;
+.img-fluid{
+  width: 250px;
+  height: 200px;
 }
-
-.items {
-  padding-top: 70px;
-  padding: 80px;
-}
-/*---Firefox Bug Fix --*/
-.carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-}
-
-.title{
-  text-align: center;
-  padding: 30px 0px 10px 0px;
-  color: #fff;
-}
-
 .btn {
-    background-color: #4CAF50; /* Green */
+    background-color: #ae9545; /* Green */
     border: 1px;
     border-color: #f1a339;
     color: white;
@@ -64,12 +42,14 @@
     display: inline-block;
     font-size: 25px;
 }
-
-.menu-item{
-  width: 10px;
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
 }
-
-
 /*--- Fixed Background Image --*/
 figure {
   position: relative;
