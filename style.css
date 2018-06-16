@@ -22,6 +22,7 @@
 }
 
 .img-fluid { 
+  padding-top: 10px;
   height: 400px;
   width: 500px;
   }
