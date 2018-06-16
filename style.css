@@ -21,7 +21,23 @@
   
 }
 
+.img-fluid { 
+  height: 400px;
+  width: 500px;
+  }
+.container-fluidpadding{
+  color: #ff00ff;
+  padding: 20px;
+}
 
+.proceed{
+  margin-top: 10px;
+}
+
+.items {
+  padding-top: 70px;
+  padding: 80px;
+}
 /*---Firefox Bug Fix --*/
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
