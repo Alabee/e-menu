@@ -21,6 +21,7 @@ background-attachment:fixed;
 font-family:'Segoe UI Light';
 =======
 .img-fluid { 
+  padding-top: 10px;
   height: 400px;
   width: 500px;
   }
