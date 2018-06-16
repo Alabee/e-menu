@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 
-
-
-
-
-
-
-
-
-
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
@@ -20,7 +11,15 @@
 @media (max-width: 576px) {
   
 }
+<<<<<<< HEAD
 
+<<<<<<< HEAD
+body{
+  background-image: url('img/Screenshot (64).png');
+background-size: cover;
+background-attachment:fixed;
+font-family:'Segoe UI Light';
+=======
 .img-fluid { 
   padding-top: 10px;
   height: 400px;
@@ -38,6 +37,30 @@
 .items {
   padding-top: 70px;
   padding: 80px;
+>>>>>>> 94397479fa72e77104f4ba4b98d58ab467c31131
+=======
+body{
+  background-image: url("img/background.jpg");
+>>>>>>> eac942587e887eb1f613c8c5b5b5e869d35e1fed
+}
+.navbar{
+  background: #4CAF50;
+}
+
+.img-fluid{
+  width: 250px;
+  height: 200px;
+}
+.btn {
+    background-color: #ae9545; /* Green */
+    border: 1px;
+    border-color: #f1a339;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
 }
 /*---Firefox Bug Fix --*/
 .carousel-item {
@@ -46,10 +69,6 @@
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
-}
-
-.navbar{
-  float: none;
 }
 /*--- Fixed Background Image --*/
 figure {
