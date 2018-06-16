@@ -28,6 +28,18 @@ font-family:'Segoe UI Light';
   color: #ff00ff;
   padding: 20px;
 }
+.class{
+  <div class="container-fluid padding">
+  <div class="row welcome text-center">
+    <div class="col-12">
+      <hi class="display-4"><marquee><font color: "blue">WELCOME TO THE HOME OF THE BEST DELICACIES</marquee></hi></font color>
+    </div>
+    <hr>
+  </div>
+</div>
+
+
+}
 
 .proceed{
   margin-top: 10px;
